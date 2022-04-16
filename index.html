@@ -22,13 +22,43 @@
 
   <body>
     <div class="page">
-      <header class="header"></header>
-      <main class="main">
-        <section class="main__menu"></section>
-        <section class="main__recipes"></section>
-        <section class="main__reservation"></section>
-        <section class="main__about"></section>
-      </main>
+      <img
+        class="logo"
+        src="./images/logo_coffee_shop.svg"
+        alt="Practicum Coffee Shop Logo"
+      />
+      <nav class="nav">
+        <ul class="nav__links">
+          <li><a class="nav__link" href="#menu-id">Menu</a></li>
+          <li><a class="nav__link" href="#recipes-id">Recipes</a></li>
+          <li><a class="nav__link" href="#reservation-id">Book a table</a></li>
+          <li><a class="nav__link" href="#about-id">Contacts</a></li>
+        </ul>
+      </nav>
+      <header class="header">
+        <h1 class="header__title">
+          <span class="header__title_span-accent">Specialty coffee</span>
+        </h1>
+        <h1 class="header__title">in the Practicum Library</h1>
+        <p class="header__description">
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help you get creative.
+        </p>
+        <img
+          class="header__image"
+          src="./images/inside_coffee_shop.png"
+          alt="Illustration of the coffee shop"
+        />
+        <div class="header__paragraph">
+          <p>Hours:</p>
+          <p>Monday - Friday (10:00 - 19:00)</p>
+          <p>Saturday - Sunday (11:00 - 18:00)</p>
+        </div>
+      </header>
+      <section class="menu" id="menu-id"></section>
+      <section class="recipes" id="recipes-id"></section>
+      <section class="reservation" id="reservation-id"></section>
+      <section class="about" id="about-id"></section>
       <footer class="footer"></footer>
     </div>
   </body>

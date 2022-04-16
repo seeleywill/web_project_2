@@ -8,3 +8,19 @@
   font-size: 16px;
   line-height: 20px;
 }
+
+.header {
+  background-color: #ffffff;
+  background-image: url("../images/background_header.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+  transition: color 1s linear 0s;
+}
