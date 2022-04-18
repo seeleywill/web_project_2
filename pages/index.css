@@ -79,6 +79,8 @@
   line-height: 72px;
   max-width: 729px;
   margin-left: 80px;
+  position: relative;
+  z-index: 1;
 }
 
 .header__description {
@@ -91,6 +93,7 @@
   margin-left: 80px;
   margin-top: 28px;
   z-index: 2;
+  position: relative;
 }
 
 .header__image {
