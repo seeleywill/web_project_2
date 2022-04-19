@@ -390,5 +390,42 @@
   position: absolute;
   top: -152px;
   left: -129px;
+}
+
+.about__circle_blurred {
   animation: pulsate 1.3s ease-in-out 0s infinite;
+}
+
+.footer {
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+  color: white;
+}
+
+.footer__social-heading {
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__social-link {
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1;
+  transition: color 1s linear 0s;
+}
+
+.footer__copyright {
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
