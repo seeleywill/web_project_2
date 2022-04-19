@@ -247,3 +247,28 @@
 .recipes__video-caption_time {
   justify-self: flex-end;
 }
+
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url("../images/background_reservation.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form__input {
+  border-radius: 4px;
+}
+
+.form__button {
+  border-radius: 4px;
+}
+
+.form__button:hover {
+  opacity: 70%;
+  transition: opacity 1s linear 0s;
+}
+
+.form__checkbox {
+  border-radius: 2px;
+}
