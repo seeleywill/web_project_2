@@ -333,3 +333,35 @@
   background-color: #2f80ed;
   background-image: url("../images/check.svg");
 }
+
+.about {
+  background-color: #0a2750;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about__title {
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  max-width: 251px;
+  margin: 100px 80px;
+}
+
+.about__content {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 660px;
+  margin: 119px 80px 153px;
+}
+
+.about__paragraph {
+  margin-bottom: 20px;
+}
