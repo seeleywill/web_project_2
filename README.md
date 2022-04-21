@@ -12,5 +12,3 @@ This is the second project of the Web Development program at Practicum by Yandex
 - CSS animation and transform
 
 ## Plan on improving the project
-
-Add your ideas here :)
