@@ -65,6 +65,10 @@
   margin-top: 30px;
 }
 
+.nav__link {
+  text-decoration: none;
+}
+
 .nav__link:hover {
   color: #2f80ed;
   transition: color 1s linear 0s;
@@ -399,6 +403,19 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   color: white;
+  padding: 60px 100px 60px 80px;
+  box-sizing: border-box;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  width: 153px;
+  height: 32px;
+  align-self: flex-start;
 }
 
 .footer__social-heading {
@@ -407,6 +424,22 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
+  margin: 0 0 20px;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  margin-top: 16px;
+}
+
+.footer__social-icon {
+  size: 16px;
+  margin-right: 10px;
 }
 
 .footer__social-link {
@@ -428,4 +461,5 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  margin: 108px 0px 0px 0px;
 }
