@@ -12,3 +12,5 @@ This is the second project of the Web Development program at Practicum by Yandex
 - CSS animation and transform
 
 ## Plan on improving the project
+
+Some potential additions include an animated visual indicator for the active input window on the form section, and links to return to the header in the other sections of the page. Certain hover states could also be more visually distinct from their default appearance, such as a greater change in color, animated change in scale, or an animated drop shadow.
