@@ -46,6 +46,6 @@
   justify-content: space-between;
 }
 
-.recipes__video-caption_time {
+.recipes__video-caption-time {
   justify-self: flex-end;
 }
