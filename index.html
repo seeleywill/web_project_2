@@ -38,29 +38,31 @@
             <li><a class="nav__link" href="#about-id">Contacts</a></li>
           </ul>
         </nav>
-        <h1 class="header__title">
-          <span class="header__span-accent">Specialty coffee</span> in the
-          Practicum Library
-        </h1>
-        <p class="header__description">
-          Welcome to our study zone! We've got the coffee to energize you and
-          the cozy vibes to help you get creative.
-        </p>
+        <div class="header__content">
+          <h1 class="header__title">
+            <span class="header__span-accent">Specialty coffee</span> in the
+            Practicum Library
+          </h1>
+          <p class="header__description">
+            Welcome to our study zone! We've got the coffee to energize you and
+            the cozy vibes to help you get creative.
+          </p>
+          <div class="header__footer">
+            <div>
+              <p class="header__paragraph">Hours:</p>
+              <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
+              <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
+            </div>
+            <p class="header__paragraph" class="header__address">
+              200 Success Avenue, The Town of Practicum
+            </p>
+          </div>
+        </div>
         <img
           class="header__image"
           src="./images/inside_coffee_shop.png"
           alt="Illustration of the coffee shop"
         />
-        <div class="header__paragraph">
-          <div>
-            <p>Hours:</p>
-            <p>Monday - Friday (10:00 - 19:00)</p>
-            <p>Saturday - Sunday (11:00 - 18:00)</p>
-          </div>
-          <p class="header__address">
-            200 Success Avenue, The Town of Practicum
-          </p>
-        </div>
       </header>
       <main>
         <section class="menu" id="menu-id">
@@ -72,85 +74,91 @@
           <div class="menu__cards">
             <div class="card">
               <h3 class="card__title">Filter</h3>
-              <p class="card__list-item">
-                Regular (12 oz)
-                <span class="card__list-divider"></span>
-                $1
-              </p>
-              <p class="card__list-item">
-                Large (16 oz)
-                <span class="card__list-divider"></span>
-                $1.25
-              </p>
-              <p class="card__list-item">
-                XL (20 oz)
-                <span class="card__list-divider"></span>
-                $1.5
-              </p>
-              <p class="card__list-item">
-                Party-size (24 oz, decaf)
-                <span class="card__list-divider"></span>
-                $1.75
-              </p>
-              <p class="card__list-item">
-                Iced Coffee (16 oz)
-                <span class="card__list-divider"></span>
-                $1.25
-              </p>
+              <ul class="card__list">
+                <li class="card__list-item">
+                  Regular (12 oz)
+                  <span class="card__list-divider"></span>
+                  $1
+                </li>
+                <li class="card__list-item">
+                  Large (16 oz)
+                  <span class="card__list-divider"></span>
+                  $1.25
+                </li>
+                <li class="card__list-item">
+                  XL (20 oz)
+                  <span class="card__list-divider"></span>
+                  $1.5
+                </li>
+                <li class="card__list-item">
+                  Party-size (24 oz, decaf)
+                  <span class="card__list-divider"></span>
+                  $1.75
+                </li>
+                <li class="card__list-item">
+                  Iced Coffee (16 oz)
+                  <span class="card__list-divider"></span>
+                  $1.25
+                </li>
+              </ul>
             </div>
             <div class="card">
               <h3 class="card__title">Espresso</h3>
-              <p class="card__list-item">
-                Macchiato<span class="card__list-divider"></span>$2.25
-              </p>
-              <p class="card__list-item">
-                Cortado
-                <span class="card__list-divider"></span>
-                $2.25
-              </p>
-              <p class="card__list-item">
-                Mocha
-                <span class="card__list-divider"></span>
-                $3
-              </p>
-              <p class="card__list-item">
-                Sunrise in the Bay Area (decaf)
-                <span class="card__list-divider"></span>
-                $10
-              </p>
+              <ul class="card__list">
+                <li class="card__list-item">
+                  Macchiato<span class="card__list-divider"></span>$2.25
+                </li>
+                <li class="card__list-item">
+                  Cortado
+                  <span class="card__list-divider"></span>
+                  $2.25
+                </li>
+                <li class="card__list-item">
+                  Mocha
+                  <span class="card__list-divider"></span>
+                  $3
+                </li>
+                <li class="card__list-item">
+                  Sunrise in the Bay Area (decaf)
+                  <span class="card__list-divider"></span>
+                  $10
+                </li>
+              </ul>
             </div>
             <div class="card">
               <h3 class="card__title">Baked Goods</h3>
-              <p class="card__list-item">
-                Almond Croissant
-                <span class="card__list-divider"></span>
-                $2
-              </p>
-              <p class="card__list-item">
-                Banana Bread
-                <span class="card__list-divider"></span>
-                $1.75
-              </p>
-              <p class="card__list-item">
-                Key Lime Pie
-                <span class="card__list-divider"></span>
-                $3
-              </p>
-              <p class="card__list-item">
-                Blue Velvet Cake
-                <span class="card__list-divider"></span>
-                $3.75
-              </p>
-              <p class="card__list-item">
-                Web Cookie
-                <span class="card__list-divider"></span>
-                $2
-              </p>
-              <p class="card__list-item">
-                Fresh Bug'uette
-                <span class="card__list-divider"></span>
-                $0.25
-              </p>
+              <ul class="card__list">
+                <li class="card__list-item">
+                  Almond Croissant
+                  <span class="card__list-divider"></span>
+                  $2
+                </li>
+                <li class="card__list-item">
+                  Banana Bread
+                  <span class="card__list-divider"></span>
+                  $1.75
+                </li>
+                <li class="card__list-item">
+                  Key Lime Pie
+                  <span class="card__list-divider"></span>
+                  $3
+                </li>
+                <li class="card__list-item">
+                  Blue Velvet Cake
+                  <span class="card__list-divider"></span>
+                  $3.75
+                </li>
+                <li class="card__list-item">
+                  Web Cookie
+                  <span class="card__list-divider"></span>
+                  $2
+                </li>
+                <li class="card__list-item">
+                  Fresh Bug'uette
+                  <span class="card__list-divider"></span>
+                  $0.25
+                </li>
+              </ul>
             </div>
           </div>
         </section>
@@ -197,7 +205,7 @@
           <h2 class="reservation__title">Book a table</h2>
           <form class="reservation__form form">
             <fieldset class="form__fieldset">
-              <label class="form__label">Name*</label
+              <label class="form__label" for="reservation-name">Name*</label
               ><input
                 class="form__input"
                 type="text"
@@ -206,7 +214,8 @@
                 placeholder="Name Surname"
                 required
               />
-              <label class="form__label">Number of guests*</label
+              <label class="form__label" for="number-of-guests"
+                >Number of guests*</label
               ><input
                 class="form__input"
                 type="number"
@@ -217,7 +226,8 @@
                 max="8"
                 required
               />
-              <label class="form__label">Date & time*</label
+              <label class="form__label" for="reservation-time"
+                >Date & time*</label
               ><input
                 class="form__input"
                 type="datetime-local"
@@ -225,7 +235,8 @@
                 id="reservation-time"
                 required
               />
-              <label class="form__label">Your email*</label
+              <label class="form__label" for="reservation-email"
+                >Your email*</label
               ><input
                 class="form__input"
                 type="email"
@@ -244,7 +255,9 @@
                 id="terms-of-use-agreed"
                 required
               />
-              <label class="form__label">I agree with the terms of use</label>
+              <label class="form__label" for="terms-of-use-agreed"
+                >I agree with the terms of use</label
+              >
             </div>
           </form>
         </section>

@@ -2,6 +2,7 @@
   box-sizing: border-box;
   max-width: 600px;
   width: calc(50% - 20px);
+  margin: 0px;
 }
 
 .card__title {
@@ -10,7 +11,11 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
-  margin-bottom: 32px;
+  margin: 0px 0px 32px 0px;
+}
+
+.card__list {
+  padding-inline-start: 0;
 }
 
 .card__list-item {
@@ -22,10 +27,11 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  margin-bottom: 16px;
+  margin: 0px 0px 16px 0px;
 }
 
 .card__list-divider {
   border-bottom: thin solid white;
   flex-grow: 1;
+  margin: 0px 5px;
 }
