@@ -11,47 +11,9 @@
   box-sizing: border-box;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  max-width: 125px;
-  max-height: 142px;
-  margin-left: 30px;
-  margin-top: 30px;
-  margin-bottom: 80px;
-}
-
-.nav__links {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  font-family: Inter, Arial, sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
-  margin-right: 80px;
-  margin-bottom: 202px;
-  margin-top: 30px;
-}
-
-.nav__link {
-  text-decoration: none;
-}
-
-.nav__link:hover {
-  color: #2f80ed;
-  transition: color 1s linear 0s;
-}
-
 .header__title {
   font-family: Inter, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 60px;
   font-style: normal;
   font-weight: 500;
   line-height: 72px;
